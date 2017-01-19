@@ -71,7 +71,7 @@ for i in range(epoch):
   show_image("3rbm.jpg", rbmobject3.n_w, (25, 20), (25, 10))
 rbmobject3.save_weights('./rbmw3.chp')
 
-# Train Third RBM
+# Train Fourth RBM
 print('fourth rbm')
 for i in range(epoch):
   for j in range(iterations):
